@@ -1,0 +1,7 @@
+project: savantenvs/OpenHD
+target: fuzz_fec_decoder
+
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/fuzz_fec_decoder
+    libfuzzer: true
+    timeout: 5

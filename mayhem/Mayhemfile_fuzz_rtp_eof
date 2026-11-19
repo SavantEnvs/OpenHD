@@ -1,0 +1,7 @@
+project: savantenvs/OpenHD
+target: fuzz_rtp_eof
+
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/fuzz_rtp_eof
+    libfuzzer: true
+    timeout: 5

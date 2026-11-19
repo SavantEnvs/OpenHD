@@ -1,0 +1,7 @@
+project: savantenvs/OpenHD
+target: fuzz_radiotap
+
+cmds:
+  - cmd: /mayhem/mayhem/build/bin/fuzz_radiotap
+    libfuzzer: true
+    timeout: 5
